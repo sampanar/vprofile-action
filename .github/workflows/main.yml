@@ -58,5 +58,5 @@ jobs:
         region: ${{env.AWS_REGION}}
         tags: latest,${{github.run_number}}
         daemon_off: false
-        dockerfile: ./DockerFile
+        dockerfile: ./Dockerfile
         context: ./
